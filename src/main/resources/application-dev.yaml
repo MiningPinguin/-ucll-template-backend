@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:en3db
+    username: h2
+    password: t
+
+  h2:
+    console:
+      enabled: true
+
+  flyway:
+    enabled: true
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
