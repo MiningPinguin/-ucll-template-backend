@@ -1,5 +1,19 @@
 # Backend
 
+## Setup
+
+### `.env`
+
+```yaml
+CORS_ALLOWED_ORIGINS=http://localhost:8080
+JWT_SECRET_KEY=<base-64-key>
+PORT=3000
+```
+
+```cmd
+mvn spring-boot:run
+```
+
 ## Tests
 
 ### Unit
